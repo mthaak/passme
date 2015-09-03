@@ -1,6 +1,9 @@
 # Pass me
 This webpage allows you create a different password for all your accounts using only a single master password.
 
+It is hosted here: ...
+but it can also be downloaded and opened locally since it is only a single html file.
+
 ### Usage
 All you have to do is type in the domain (e.g. Github), your master password and press 'Copy to clipboard' or Show password'. When copied, Ctrl+v can be used anywhere to paste your domain-specific password.
 
