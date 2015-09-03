@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Passme : Storage-less password manager">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Passme</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Artem1zz/passme">View on GitHub</a>
+
+          <h1 id="project_title">Passme</h1>
+          <h2 id="project_tagline">Storage-less password manager</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Artem1zz/passme/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Artem1zz/passme/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="passme" class="anchor" href="#passme" aria-hidden="true"><span class="octicon octicon-link"></span></a>passme</h1>
+
+<p>Storage-less password manager</p>
+
+<p>This portable webpage allows you create a different password for all your accounts using only a single master password. generate seperate passwords for all your accounts using only your secret master password. </p>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<p>All you have to do is open the .html file or surf to this site (.....), type in the domain (e.g. Google), master password and press Copy password. Then Ctrl+v wherever you need your account password.</p>
+
+<h3>
+<a id="how-it-works" class="anchor" href="#how-it-works" aria-hidden="true"><span class="octicon octicon-link"></span></a>How it works</h3>
+
+<p>The web page uses the SHA256 HMAC hashing algorithm to generate a password from the domain and the master password. Since SHA256 is a cryptographic hash function it is practically impossible to recreate the master password from the domain-specific. 
+Also the output is converted a more readable format where dots split up groups of 4 characters.</p>
+
+<h3>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h3>
+
+<ul>
+<li>SHA256 HMAC script from Brian Turek 2008-2015 (<a href="http://caligatio.github.com/jsSHA/">http://caligatio.github.com/jsSHA/</a>)</li>
+<li>Seedrandom script from David Bau 2015 (<a href="https://github.com/davidbau/seedrandom">https://github.com/davidbau/seedrandom</a>)</li>
+<li>Shuffle script from Jonas Raoni Soares Silva (<a href="http://jsfromhell.com/array/shuffle">http://jsfromhell.com/array/shuffle</a> [rev. #1])</li>
+<li>Randint script from pc035860 (<a href="https://gist.github.com/pc035860/6546661">https://gist.github.com/pc035860/6546661</a>)</li>
+<li>Change classes of html script from kjy112 (<a href="http://stackoverflow.com/questions/5169017/how-to-remove-class-attribute-from-div">http://stackoverflow.com/questions/5169017/how-to-remove-class-attribute-from-div</a>)</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Passme maintained by <a href="https://github.com/Artem1zz">Artem1zz</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
