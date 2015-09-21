@@ -32,22 +32,22 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a id="passme" class="anchor" href="#passme" aria-hidden="true"><span class="octicon octicon-link"></span></a>passme</h1>
+<a id="pass-me" class="anchor" href="#pass-me" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pass me</h1>
 
-<p>Storage-less password manager</p>
+<p>This web tool allows you create a different password for all your accounts using only a single master password.</p>
 
-<p>This portable webpage allows you create a different password for all your accounts using only a single master password. generate seperate passwords for all your accounts using only your secret master password. </p>
+<p><strong>It is hosted here: <a href="https://dl.dropboxusercontent.com/u/102424383/passme.html">Pass me</a></strong><br>
+but it can also be downloaded and used locally since it is only a single html file.</p>
 
 <h3>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
 
-<p>All you have to do is open the .html file or surf to this site (.....), type in the domain (e.g. Google), master password and press Copy password. Then Ctrl+v wherever you need your account password.</p>
+<p>All you have to do is type in the domain (e.g. Github), your master password and press 'Copy to clipboard' or Show password'. When copied, Ctrl+V can be used anywhere to paste your account-specific password.</p>
 
 <h3>
 <a id="how-it-works" class="anchor" href="#how-it-works" aria-hidden="true"><span class="octicon octicon-link"></span></a>How it works</h3>
 
-<p>The web page uses the SHA256 HMAC hashing algorithm to generate a password from the domain and the master password. Since SHA256 is a cryptographic hash function it is practically impossible to recreate the master password from the domain-specific. 
-Also the output is converted a more readable format where dots split up groups of 4 characters.</p>
+<p>The tool uses the non-invertible SHA256 HMAC hashing algorithm to generate a password from the domain and the master password. This means that it is practically impossible to recreate your master password from the account-specific password if it would be compromised. Also since all is done client-side your passwords can not be intercepted. The generated passwords are strong, short and reasonably memorable. </p>
 
 <h3>
 <a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h3>
@@ -57,7 +57,7 @@ Also the output is converted a more readable format where dots split up groups o
 <li>Seedrandom script from David Bau 2015 (<a href="https://github.com/davidbau/seedrandom">https://github.com/davidbau/seedrandom</a>)</li>
 <li>Shuffle script from Jonas Raoni Soares Silva (<a href="http://jsfromhell.com/array/shuffle">http://jsfromhell.com/array/shuffle</a> [rev. #1])</li>
 <li>Randint script from pc035860 (<a href="https://gist.github.com/pc035860/6546661">https://gist.github.com/pc035860/6546661</a>)</li>
-<li>Change classes of html script from kjy112 (<a href="http://stackoverflow.com/questions/5169017/how-to-remove-class-attribute-from-div">http://stackoverflow.com/questions/5169017/how-to-remove-class-attribute-from-div</a>)</li>
+<li>Change classes script from kjy112 (<a href="http://stackoverflow.com/questions/5169017/how-to-remove-class-attribute-from-div">http://stackoverflow.com/questions/5169017/how-to-remove-class-attribute-from-div</a>)</li>
 </ul>
       </section>
     </div>
