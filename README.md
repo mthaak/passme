@@ -1,7 +1,7 @@
 # Pass me
 This web tool allows you create a different password for all your accounts using only a single master password.
 
-**It is hosted here: [Pass me] (https://dl.dropboxusercontent.com/u/102424383/passme.html)**  
+**It is hosted here: [Pass me] (http://mthaak.com/passme/)**  
 but it can also be downloaded and used locally since it is only a single html file.
 
 ### Usage
