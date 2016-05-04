@@ -8,7 +8,7 @@ but it can also be downloaded and used locally since it is only a single html fi
 All you have to do is type in the domain (e.g. Github), your master password and press 'Copy to clipboard' or 'Show password'. When copied, Ctrl+V can be used anywhere to paste your account-specific password.
 
 ### How it works
-The tool uses the non-invertible SHA256 HMAC hashing algorithm to generate a password from the domain and the master password. This means that it is practically impossible to recreate your master password from the account-specific password if it would be compromised. Also since all is done client-side your passwords can not be intercepted. The generated passwords are strong, short and reasonably memorable. 
+The tool uses the non-invertible SHA256 hashing algorithm to generate a password from the domain and the master password. This means that it is practically impossible to recreate your master password from the account-specific password if it would be compromised. Also since everything is done client-side your passwords can not be intercepted. The generated passwords are strong, short and reasonably memorable. 
 
 ### Credits
 - SHA256 HMAC script from Brian Turek 2008-2015 (http://caligatio.github.com/jsSHA/)
