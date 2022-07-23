@@ -16,3 +16,4 @@ The tool uses the non-invertible SHA256 hashing algorithm to generate a password
 - Shuffle script from Jonas Raoni Soares Silva (http://jsfromhell.com/array/shuffle [rev. #1])
 - Randint script from pc035860 (https://gist.github.com/pc035860/6546661)
 - Change classes script from kjy112 (http://stackoverflow.com/questions/5169017/how-to-remove-class-attribute-from-div)
+- Bootstrap (http://getbootstrap.com/)
