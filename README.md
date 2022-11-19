@@ -1,7 +1,7 @@
 # Pass me
 This web tool allows you create a different password for all your accounts using only a single master password.
 
-**It is hosted here: [https://mthaak.com/passme/](https://mthaak.com/passme/)**  
+**It is hosted here: [https://mthaak.github.io/passme/](https://mthaak.github.io/passme/)**  
 but it can also be downloaded and used locally since it is only a single html file.
 
 ### Usage
